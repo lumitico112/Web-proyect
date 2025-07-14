@@ -3,19 +3,19 @@
  * Created by:
  * author: @LuisMi
  * Fecha: 2025-07-14
- * Time: 14:09
+ * Time: 16:54
  */
-include ('../app/config.php');
-include ('../admin/layout/parte1.php');
+include ('../../app/config.php');
+include ('../../admin/layout/parte1.php');
 ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <br>
     <div class="content">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-            <h1>Vista Principal</h1>
+            <h1>Listado de categorias</h1>
         </div>
         <!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -26,7 +26,7 @@ include ('../admin/layout/parte1.php');
 
 <?php
 
-include ('../admin/layout/parte2.php');
-include ('../layout/mensajes.php');
+include ('../../admin/layout/parte2.php');
+include ('../../layout/mensajes.php');
 
 ?>
