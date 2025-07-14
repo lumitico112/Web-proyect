@@ -11,10 +11,10 @@ define ('PASSWORD', 'DataBase_1.');
 define ('BD', 'sisgestionescolar');
 
 define ('APP_NAME', 'SISTEMA DE GESTIÓN ESCOLAR');
-define ('APP_URL', 'http://localhost/sisGestionEscolar');
+define ('APP_URL', 'http://localhost/sisgestionescolar');
 define ('kEY_API_MAPS', '');
 
-$servidor = 'mysql:daname='.BD.';host='.SERVIDOR;
+$servidor = "mysql:dbname=" .BD."; host=".SERVIDOR;
 
 try{
     $pdo = new PDO($servidor, USUARIO, PASSWORD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
