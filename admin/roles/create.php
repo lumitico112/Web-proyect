@@ -5,4 +5,5 @@
  * Fecha: 2025-07-14
  * Time: 16:56
  */
+echo "Crear nuevo rol";
 ?>
